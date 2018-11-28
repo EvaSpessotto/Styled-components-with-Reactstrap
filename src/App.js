@@ -1,18 +1,8 @@
 import React, { Component } from 'react';
-import styled from '@emotion/styled';
 import './App.scss';
 import { Container, Row, Col } from 'reactstrap';
+import { MyContainer } from './StyledComponents';
 
-// Methode 2
-const MyContainer = styled.div`
-  max-width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 10px;
-  padding: 50px;
-  background-color: ${props =>
-    props.orange ? '#ffa100' : 'white'};
-`
 class App extends Component {
   render() {
     return (
